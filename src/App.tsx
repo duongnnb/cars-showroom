@@ -1,8 +1,24 @@
 import React from 'react';
+import styled from 'styled-components';
+import tw from 'twin.macro';
 import './App.css';
+import { HomePage } from './app/containers/HomPage';
 
-function App() {
-  return <div className='App'>Cars Showroom</div>;
+const AppContainer = styled.div`
+  ${tw`
+w-full
+h-full
+flex
+flex-col
+`}
+`;
+
+function App(): JSX.Element {
+  return (
+    <AppContainer>
+      <HomePage />
+    </AppContainer>
+  );
 }
 
 export default App;
