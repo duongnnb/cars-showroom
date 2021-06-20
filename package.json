@@ -51,6 +51,7 @@
     ]
   },
   "devDependencies": {
+    "@brainhubeu/react-carousel": "^2.0.4",
     "@types/react-burger-menu": "^2.8.0",
     "@types/react-responsive": "^8.0.2",
     "@types/styled-components": "^5.1.10",
