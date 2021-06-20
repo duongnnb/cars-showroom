@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled from 'styled-components/macro';
 import tw from 'twin.macro';
 import { Logo } from '../logo';
 import { NavItems } from './navItems';
